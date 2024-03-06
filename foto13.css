@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navigasi{
+    background-color: white;
+    border: 2px #F98903;
+    width: 100%;
+    height: 70px;
+    color:#0B60B0;
+    position:static;
+    box-shadow: 0 2px 3px 0 #f0f0f0;
+}
+.logo{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+span{
+    color:#F98903;
+}
+.menu{
+    margin-left: 800px;
+    padding-top: 25px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+.menu ul li a{  
+    text-decoration: none;
+    color:#0B60B0;
+}
+.menu ul li a:hover{
+    color:#F98903;
+    font-style: italic;
+}
+
+.lebar{
+    background-image: url(gambar/c.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.lebar img {
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+}
+.lebar h1{
+    margin-top: 200px;
+    margin-bottom: 10px;
+    color:#0B60B0;
+    
+}
+.lebar button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+.lebar button:hover{
+    background-color: #F98903;
+    border: 1px solid white;
+    color: white;
+}
+
+h1 span:before {
+    content: '';
+    animation: gerak infinite 9s ease;
+    transform: translateY(-50%);
+    color:#F98903;
+    font-size: 50px;
+}
+.lebar h1{
+    margin-top: 200px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    color:#0B60B0;
+    
+}
+.tengah{
+    text-align: center;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Selamat Datang';
+    }
+    50% {
+        content: 'Di Website 013';
+    }
+    100% {
+        content: 'Terimakasih';
+    }
+}
+
+@-webkit-keyframes gerak {
+    0% {
+        content: 'Selamat Datang';
+    }
+    50% {
+        content: 'Di Website 013';
+    }
+    100% {
+        content: 'Terimakasih';
+    }
+}
+
+.biodata{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    margin-left: 800px;
+    margin-top: -240px;
+}
+
+.biodata ul li{
+    text-align: justify;
+    list-style: none;
+    margin-left: 10px;
+}
+.gambarbiodata img{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+}
+
